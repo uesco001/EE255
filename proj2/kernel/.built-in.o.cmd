@@ -1,0 +1,1 @@
+cmd_proj2/kernel/built-in.o :=  rm -f proj2/kernel/built-in.o; arm-linux-gnueabihf-ar rcSTPD proj2/kernel/built-in.o proj2/kernel/sys_set_rtmon.o proj2/kernel/sys_cancel_rtmon.o proj2/kernel/sys_print_rtmon.o proj2/kernel/sys_wait_until_next_period.o 
